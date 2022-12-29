@@ -1,11 +1,6 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 
-# MetaFrame Repo
-/Assets/0A_MetaFrame/.git/
-/Assets/0A_MetaFrame/.gitignore
-/Assets/0A_MetaFrame/LICENSE
-
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /[Ll]ibrary/
