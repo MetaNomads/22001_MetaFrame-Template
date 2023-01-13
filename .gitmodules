@@ -1,4 +1,3 @@
-[submodule "Assets/MetaFrame-Unity"]
-	path = Assets/MetaFrame-Unity
-	url = https://github.com/MetaNomads/MetaFrame-Unity.git
-	branch = main
+[submodule "Assets/0A_MetaFrame"]
+	path = Assets/0A_MetaFrame
+	url = https://github.com/MetaNomads/MetaFrame-Unity
