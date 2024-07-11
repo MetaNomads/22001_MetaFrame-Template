@@ -12,10 +12,10 @@ TagManager:
   - HiddenMesh
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Grabbing
+  - Grabbable
+  - Hand
+  - HandPlayer
   - Character
   - MirroredCharacter
   - 
