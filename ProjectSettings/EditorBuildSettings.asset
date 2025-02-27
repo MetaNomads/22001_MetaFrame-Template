@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/A.01_MetaFrame/A.01_Template/Template Level.unity
     guid: c4500310263070441be98c8e85243f6f
   m_configObjects:
@@ -18,5 +18,7 @@ EditorBuildSettings:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 8bdb35bc4bfdfdb45991495ea1c30d93, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7858207f1b1caae4ea1cb86f394630b1,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ae690021daf68b145b68335a4efef400,
       type: 2}
   m_UseUCBPForAssetBundles: 0
