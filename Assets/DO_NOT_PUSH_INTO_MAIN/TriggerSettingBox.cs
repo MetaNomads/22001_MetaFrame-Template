@@ -6,20 +6,18 @@ public class TriggerSetting : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Cup"))
-        {
-            CupPresent = true;
-            Debug.Log("Functions Activation: True");
-        }
+        if (!other.CompareTag("Cup")) return;
+
+        CupPresent = true;
+        Debug.Log($"Cup entered trigger: {other.name}");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Cup"))
-        {
-            CupPresent = false;
-            Debug.Log("Functions Activation: False");
-        }
+        if (!other.CompareTag("Cup")) return;
+
+        CupPresent = false;
+        Debug.Log($"Cup exited trigger: {other.name}");
     }
 
     public bool GetCupPresence()
