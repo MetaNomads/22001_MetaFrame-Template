@@ -8,16 +8,8 @@ public class SpawnMechanism : MonoBehaviour
     [SerializeField] private TriggerSetting PlateTrigger;
     [SerializeField] private TriggerSetting PlateTrigger2;
 
-
     private GameObject currentCup;
-    private string cupPlaced;
 
-    public string CupPlacementCompletion()
-    { 
-        Debug.Log("GSM cup:" + cupPlaced);
-        cupPlacement();
-        return cupPlaced; 
-    }
     public void SpawnCup()
     {
         currentCup = Instantiate(
@@ -34,10 +26,5 @@ public class SpawnMechanism : MonoBehaviour
             Destroy(currentCup);
             currentCup = null;
         }
-    }
-
-    public string cupPlacement()
-    {
-        
     }
 }
